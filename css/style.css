@@ -1417,7 +1417,7 @@
  
  .info-box a {
    font-size: 14px;
-   color: #8a2a2b;
+   color: white;
    text-decoration: underline;
  }
  
@@ -1559,6 +1559,22 @@
    overflow: hidden;
    padding-top: 2px;
  }
+
+ .recent-post .rp-item .rp-text a:link p {
+  color: #9d809d;
+}
+
+.recent-post .rp-item .rp-text a:visited p {
+  color: #9d809d;
+}
+
+.recent-post .rp-item .rp-text a:hover p {
+  color: red;
+}
+
+.recent-post .rp-item .rp-text a:active p {
+  color: red;
+}
  
  .recent-post .rp-item p {
    margin-bottom: 0;
