@@ -625,6 +625,13 @@
    -ms-flex-align: center;
    align-items: center;
  }
+
+ .hero-item .col-xl-8 {
+  border-top: 0.25rem solid #8a2a2b;
+  border-radius: 0.1rem;
+  background-color: black;
+  opacity: 0.9;
+ }
  
  .hero-item h2 {
    font-size: 90px;
@@ -640,11 +647,11 @@
    padding-left: 25px;
    padding-bottom: 15px;
    display: inline-block;
-   background: #8a2a2b;
+   /* background: #8a2a2b; */
  }
  
  .hero-item h2 span:nth-child(1) {
-   color: #081624;
+   color: #8a2a2b;
  }
  
  .hero-item h2 span:nth-child(2) {
